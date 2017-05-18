@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/etc/permissions/vzw_sso_permissions.xml:system/etc/permissions/vzw_sso_permissions.xml \
     vendor/google/marlin/proprietary/etc/qdcm_calib_data_M1_WQHD_SAMSUNG_S6E3HA3_5.5_command_mode_panel.xml:system/etc/qdcm_calib_data_M1_WQHD_SAMSUNG_S6E3HA3_5.5_command_mode_panel.xml \
     vendor/google/marlin/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/google/marlin/proprietary/etc/sysconfig/photo_backup.xml:system/etc/sysconfig/photo_backup.xml \
     vendor/google/marlin/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/google/marlin/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/google/marlin/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
