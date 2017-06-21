@@ -102,7 +102,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/google/marlin/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/google/marlin/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/google/marlin/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so
+    vendor/google/marlin/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/google/marlin/proprietary/lib64/libgdx.so:system/lib64/libgdx.so \
+    vendor/google/marlin/proprietary/lib64/libgeswallpapers-jni.so:system/lib64/libgeswallpapers-jni.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
@@ -122,4 +124,8 @@ PRODUCT_PACKAGES += \
     VerizonUnifiedSettings \
     embmslibrary \
     qcrilhook \
-    rcsservice
+    rcsservice \
+    NexusWallpapersStubPrebuilt \
+    WallpapersBReel \
+    WallpapersUsTwo \
+    SafetyRegulatoryInfo
